@@ -1,7 +1,7 @@
 ### _ToDoList#_
 ### Version 1.0
-#### By: Rio Atmadja
-#### Date: 07 April 2018
+#### By: noah
+#### Date: 03 may 2018
 
 ##### Description
 _This web applications allows users to create a todo lists_
@@ -36,5 +36,5 @@ _If you run into a problem, contact us at abc@epicodus.com_
 *
 * You should have received a copy of the GNU General Public License
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
-* Copyright (c) 2018 _rio atmadja@epicodus_
+* Copyright (c) 2018
 ####
