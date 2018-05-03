@@ -15,6 +15,21 @@ namespace ToDoList.Models
       _description = Description;
       _id = Id;
     }
+
+    public override bool Equals(System.Object otherItem)
+    {
+      if (!(otherItem is Item))
+      {
+        return false;
+      }
+      else
+      {
+        Item newItem = (Item) otherItem;
+        bool descriptionEquality = (this.GetDescription() == newItem.GetDescription());
+        return (descriptionEquality);
+      }
+    }
+
     public string GetDescription()
     {
       return _description;
@@ -49,10 +64,10 @@ namespace ToDoList.Models
         }
         return allItems;
     }
-    // public void Save()
-    // {
-    //   _instances.Add(this);
-    // }
+    public void Save()
+    {
+
+    }
     //     public static void ClearAll()
     // {
     //   _instances.Clear();
